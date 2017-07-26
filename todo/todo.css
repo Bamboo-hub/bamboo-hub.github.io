@@ -81,6 +81,7 @@
 .todo-content {
     position: relative;
     height: 28px;
+    bottom: 5px;
     left: 16px;
     width: 237px;
     height: 28px;

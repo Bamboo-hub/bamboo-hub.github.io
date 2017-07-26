@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>demo</title>
+        <link rel="stylesheet" href="Font-Awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="个人主页.css">
+        <!-- 播放器音量滑块 -->
+        <link rel="stylesheet" type="text/css" href="music/css/sliderBar.css">
+        <script src="music/js/sliderBar.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="music/播放器.css">
+        <!-- jquery 与 todo 输入框 -->
+        <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+        <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="todo/todo.css">
+    </head>
+    <body>
+        <div id="box">
+            <img id="home" src="home.png" alt="">
+            <i id="btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <div class="toggle-block">
+                <div>
+                    <i id="btn2" class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="toggle-content">
+                    本页最后更新于2017.07.25
+                </div>
+            </div>
+        </div>
+        <div id="box2">
+            <div class="title">你好，这里是剪竹的个人主页。</div>
+            <div class="subtitle">Hello, this is bamboo's personal homepage.</div>
+            <div id="button">EXPLORE TEMPLATE</div>
+            <img id="deer" src="鹿.png" alt="">
+        </div>
+        <div id="box3">
+            <div class="subtitle">My skills and experience in project.</div>
+            <div class="title">我的技能与项目经验。</div>
+            <div class="bs">
+                <div class="skill">
+                    <i class="fa fa-file-code-o fa-3x icon" aria-hidden="true"></i>
+                    <div class="skillname">HTML / CSS</div>
+                    <div class="detail">熟悉盒模型概念<br>
+                        能编写语义合理的 HTML<br>
+                        模块化的 CSS<br>
+                        实现常见的界面布局与动画<br>
+                        熟悉已经标准化的 HTML5 / CSS3 特性</div>
+                </div>
+                <div class="skill">
+                    <i class="fa fa-cog fa-3x icon" aria-hidden="true"></i>
+                    <div class="skillname">ECMAScript(JavaScript)</div>
+                    <div class="detail">熟悉 ECMAScript(JavaScript)<br>
+                        熟练掌握模块化, 面向对象, MVC 等编程思想<br>
+                        熟练使用原生 JS 编程, 具备学习各种框架的能力<br>
+                        学习 ES6/7 规范, 熟悉 ES6 新特性<br>
+                        了解常见的数据结构与算法知识, 能够使用 JS 实现哈希表等常见数据结构</div>
+                </div>
+                <div class="skill">
+                    <i class="fa fa-wrench fa-3x icon" aria-hidden="true"></i>
+                    <div class="skillname">DOM / BOM 及常见的 Web API</div>
+                    <div class="detail">熟悉原生 DOM 与 BOM 的使用<br>
+                        有桌面 / 移动端前端组件开发经验</div>
+                </div>
+                <div class="skill">
+                    <i class="fa fa-linode fa-3x icon" aria-hidden="true"></i>
+                    <div class="skillname">库 / 框架</div>
+                    <div class="detail">熟悉 jQuery / Bootstrap 等常见框架的使用<br>
+                        在日常学习中总结了一套常用库代替 jQuery 部分功能<br>
+                        对 React, vue, Angular 有一定的了解</div>
+                </div>
+                <div class="skill">
+                    <i class="fa fa-object-ungroup fa-3x icon" aria-hidden="true"></i>
+                    <div class="skillname">AJAX / Node.js / Express</div>
+                    <div class="detail">了解 Node.js 的使用<br>
+                        能与 Express 配合进行后端程序开发<br>
+                        了解 JavaScript 异步编程，掌握部分常见的异步解决方案<br>
+                        熟悉 HTTP 常见知识</div>
+                </div>
+                <div class="skill">
+                    <i class="fa fa-smile-o fa-3x icon" aria-hidden="true"></i>
+                    <div class="skillname">其他</div>
+                    <div class="detail">熟练掌握程序调试方法, 能快速定位解决错误<br>
+                        日常使用 Git 与 Atom 进行开发, 乐于尝试新工具<br>
+                        性格开朗、做事细心，对网页细节精益求精</div>
+                </div>
+                <!-- <div id="button">EXPLORE TEMPLATE</div> -->
+            </div>
+        </div>
+        <div id="box4">
+            <div class="box4left">
+                <div class="slide" data-imgs=3 data-active=0>
+                    <img id=id-image-0 class="slide-image active" src="slideimages/1.jpg" alt="">
+                    <img id=id-image-1 class=slide-image src="slideimages/2.jpg" alt="">
+                    <img id=id-image-2 class=slide-image src="slideimages/3.jpg" alt="">
+                    <div class="slide-button left vertical-center" data-next="-1"></div>
+                    <div class="slide-button right vertical-center" data-next="1"></div>
+                    <div class="slide-indicators">
+                        <div id=id-indi-0 class="slide-indi white" data-index="0"></div>
+                        <div id=id-indi-1 class="slide-indi" data-index="1"></div>
+                        <div id=id-indi-2 class="slide-indi" data-index="2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box4right">
+
+            </div>
+        </div>
+        <div id="box5">
+            <div class="box5left">
+
+            </div>
+            <div class="box5right">
+                <div class="slide2" data-imgs=3 data-active=0>
+                    <img id=id-image2-0 class="slide-image2 active2" src="slideimages/4.jpg" alt="">
+                    <img id=id-image2-1 class=slide-image2 src="slideimages/5.jpg" alt="">
+                    <img id=id-image2-2 class=slide-image2 src="slideimages/6.jpg" alt="">
+                    <i class="fa fa-angle-left fa-3x slide-button2 vertical-center" data-next="-1" aria-hidden="true"></i>
+                    <i class="fa fa-angle-right fa-3x slide-button2 vertical-center" data-next="1" aria-hidden="true"></i>
+                    <!-- <div class="slide-button2 left vertical-center" data-next="-1"></div>
+                    <div class="slide-button2 right vertical-center" data-next="1"></div> -->
+                </div>
+            </div>
+        </div>
+        <div id="box6">
+            <img class="background" src="box6背景图.jpg" alt="">
+            <div class="music">
+                <audio id='id-audio-player' data-path="1" src="music/1.mp3">
+                </audio>
+                <img class="musicBackground" src="music/播放器模板.png" alt="">
+                <img class="last" src="music/上一首.png" alt="">
+                <img class="button play show" src="music/播放.png" alt="">
+                <img class="button pause" src="music/暂停.png" alt="">
+                <img class="next" src="music/下一首.png" alt="">
+                <img class="volume" type="text" id="trigger" src="music/音量.png" alt="">
+                <img class="pattern randomMusic show" src="music/随机播放.png" alt="">
+                <img class="pattern cycleMusic" src="music/循环播放.png" alt="">
+                <img class="pattern cycleOne" src="music/单曲循环.png" alt="">
+                <span class="music-name">The Last String</span>
+                <span class="singer">Jacoo</span>
+                <div class="time duration"></div>
+                <div class="time">
+                    <div class="currentTime"></div>
+                </div>
+                <div class="musicSkill">
+                    <div class="projectSkillname">音乐播放器</div>
+                    <div class="projectDetail">2017.05.23</div>
+                    <div class="projectDetail">Web 前端开发</div>
+                    <div class="projectDetail">使用原生JS实现自己的音乐播放器，实现播放、暂停、
+                        上一曲、下一曲、播放进度条、选择播放模式、更换歌曲封面等功能。<br>
+                        后续打算增加页面，显示歌曲列表，增加上传音乐文件、自动抓取各大音乐
+                        网站top100的歌曲等功能。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="box7">
+            <img class="background" src="box7背景图.jpg" alt="">
+            <div class="todo">
+                <div class="todoSkill">
+                    <div class="projectSkillname">Chrome日程管理插件</div>
+                    <div class="projectDetail">2017.06.05</div>
+                    <div class="projectDetail">Node.js & Web 前端开发</div>
+                    <div class="projectDetail">使用 jQuery，框架实现 Todo 程序界面与功能<br>
+                        熟悉了 Chrome 插件开发过程与jQuery 框架的使用<br>
+                        使用 Express 框架与 Node.js，使用 Ajax<br>
+                        ※：本页展示的是todo的前端部分，之后还完成了后端部分，日期为2017.06.19
+                    </div>
+                </div>
+                <img class="todoBackground" src="todo/todo背景.png">
+                <img id='id-button-add' src="todo/添加新事项.png">
+                <img class="todo-prev" src="todo/上一页.png">
+                <img class="todo-next" src="todo/下一页.png">
+                <img class="todo-list" src="todo/右上角图标.png">
+                <span class="todo-title">todo List</span>
+                <!-- todo 输入框 -->
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name"
+                               placeholder="">
+                    </div>
+                </form>
+                <div id="id-div-container-1" class="todoShow">
+                </div>
+                <div id="id-div-container-2">
+                </div>
+                <div id="id-div-container-3">
+                </div>
+                <div id="id-div-container-4">
+                </div>
+                <div id="id-div-container-5">
+                </div>
+            </div>
+        </div>
+        <div id="box8">
+            <img id="contactPicture" src="box8.jpg" alt="">
+            <div class="contact">
+                <div class="contactName">联系我或需要项目源代码</div>
+                <i class="fa fa-weixin fa-lg contactIcon" aria-hidden="true"></i>
+                <div class="contactDetail">munan330</div>
+                <br>
+                <i class="fa fa-qq fa-lg contactIcon" aria-hidden="true"></i>
+                <div class="contactDetail">1754478425</div>
+                <br>
+                <i class="fa fa-github fa-lg contactIcon" aria-hidden="true"></i>
+                <a class="contactDetail" href="https://github.com/Bamboo-hub">https://github.com/Bamboo-hub</a>
+                <!-- <br>
+                <div class="contactDetail">※：添加联系方式时请注明来意。</div> -->
+            </div>
+        </div>
+        <div id="box9">
+            <div class="subtitle">Look forward to working with you.</div>
+            <div class="title">期待与您共事。</div>
+            <div id="button">EXPLORE TEMPLATE</div>
+            <img id="deer" src="木屋.png" alt="">
+        </div>
+        <script src="个人主页.js"></script>
+        <script src="music/js/sliderBar.js" type="text/javascript"></script>
+        <script src="music/播放器.js"></script>
+        <script type="text/javascript">
+            var sliderBar1 = new SliderBar({
+                trigger: '#trigger',
+                title: '音量',
+                minValue: 0, //最小值
+                maxValue: 10, //最大值
+                unit:'', //单位 可选填
+                position:[0, 10], //设置初始位置 可选填 注意要在 minValue—maxValue的区间内
+                callback:function(data){
+                    var volume = data.max / 10
+                    a.volume = volume
+                    console.log(volume); //返回选中的数值
+                }
+            });
+        </script>
+        <script src="todo/todo.js"></script>
+    </body>
+</html>

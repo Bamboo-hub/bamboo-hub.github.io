@@ -1,0 +1,102 @@
+.show {
+    display: block !important;
+}
+
+.musicBackground {
+    position: absolute;
+    left: 150px;
+}
+
+.randomMusic {
+    position: absolute;
+    top: 430px;
+    left: 230px;
+    display: none;
+}
+
+.cycleMusic {
+    position: absolute;
+    top: 436px;
+    left: 247px;
+    display: none;
+}
+
+.cycleOne {
+    position: absolute;
+    top: 436px;
+    left: 247px;
+    display: none;
+}
+
+.play {
+    position: absolute;
+    top: 435px;
+    left: 423px;
+    display: none;
+}
+
+.pause {
+    position: absolute;
+    top: 430px;
+    left: 416px;
+    display: none;
+}
+
+.last {
+    position: absolute;
+    top: 440px;
+    left: 332px;
+}
+
+.next {
+    position: absolute;
+    top: 440px;
+    left: 500px;
+}
+
+.volume {
+    position: absolute;
+    top: 428px;
+    left: 585px;
+}
+
+.time {
+    position: absolute;
+    top: 346px;
+    left: 245px;
+    width: 380px;
+    height: 6px;
+    border-radius: 30px;
+}
+
+.music-name {
+    position: absolute;
+    top: 363px;
+    left: 32.5%;
+    transform:translateX(-50%);
+    color: #636060;
+    letter-spacing:1px;
+    font-size: 0.8rem;
+}
+
+.singer {
+    position: absolute;
+    top: 390px;
+    left: 32.5%;
+    transform:translateX(-50%);
+    color: #b3adad;
+    text-align: center;
+    letter-spacing:1px;
+    font-size: 0.8rem;
+}
+
+.currentTime {
+    background: #f58271;
+    width: 380px;
+    height: 6px;
+    border-radius: 30px;
+}
+
+.duration {
+    background: #636060;
+}

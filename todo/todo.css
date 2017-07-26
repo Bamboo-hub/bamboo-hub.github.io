@@ -1,0 +1,98 @@
+#id-div-container-1 {
+    display: none;
+}
+#id-div-container-2 {
+    display: none;
+}
+#id-div-container-3 {
+    display: none;
+}
+#id-div-container-4 {
+    display: none;
+}
+#id-div-container-5 {
+    display: none;
+}
+.todoBackground {
+    position: absolute;
+    right: 150px;
+    bottom: -100px;
+}
+.form-inline {
+    position: relative;
+    bottom: 31px;
+    left: 815px;
+    width: 200px;
+}
+.form-control {
+    height: 20px;
+    font-size: 1px;
+    color: #302f2c;
+}
+#id-button-add {
+    position: absolute;
+    bottom: 210px;
+    left: 770px;
+}
+.todo-title {
+    position: absolute;
+    bottom: 257px;
+    left: 880px;
+    color: #f0f0f3;
+    font-size: 14px;
+}
+.todo-prev {
+    position: absolute;
+    top: 205px;
+    left: 820px;
+}
+.todo-next {
+    position: absolute;
+    top: 205px;
+    left: 985px;
+}
+.todo-list {
+    position: absolute;
+    bottom: 260px;
+    left: 1015px;
+}
+.todo-cell {
+    position: relative;
+    bottom: 20px;
+    left: 767px;
+    /*width: 237px;*/
+    height: 28px;
+    /*overflow: hidden;*/
+    margin: 2px 0;
+}
+.todo-done {
+    display: none;
+}
+.todo-undone {
+    display: none;
+}
+.show {
+    display: inline !important;
+}
+.todoShow {
+    display: inline-block !important;
+}
+
+.todo-content {
+    position: relative;
+    height: 28px;
+    left: 16px;
+    width: 237px;
+    height: 28px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.todo-delete {
+    display: inline;
+    position: relative;
+    left: 20px;
+    visibility: hidden;
+}
+.todo-cell:hover .todo-delete {
+    visibility: visible;
+}

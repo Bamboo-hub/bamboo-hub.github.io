@@ -33,6 +33,7 @@
     position: absolute;
     bottom: 190px;
     left: 155px;
+    cursor:pointer;
 }
 .todo-title {
     position: absolute;
@@ -45,16 +46,19 @@
     position: absolute;
     top: 320px;
     left: 210px;
+    cursor:pointer;
 }
 .todo-next {
     position: absolute;
     top: 320px;
     left: 365px;
+    cursor:pointer;
 }
 .todo-list {
     position: absolute;
     top: 46px;
     left: 402px;
+    cursor:pointer;
 }
 .todo-cell {
     position: relative;
@@ -67,9 +71,11 @@
 }
 .todo-done {
     display: none;
+    cursor:pointer;
 }
 .todo-undone {
     display: none;
+    cursor:pointer;
 }
 .show {
     display: inline !important;
@@ -92,6 +98,7 @@
     position: relative;
     left: 20px;
     visibility: hidden;
+    cursor:pointer;
 }
 .todo-cell:hover .todo-delete {
     visibility: visible;

@@ -254,4 +254,5 @@ var __main = function() {
     dafault()
     replace()
 }
+a.autoplay = true
 __main()

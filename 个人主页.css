@@ -275,6 +275,25 @@ body {
     background: white;
 }
 
+.sentence {
+    text-align: center;
+    margin: 6rem;
+}
+
+.sentence2 {
+    font-size: 1rem;
+    color: #c6c6ce;
+    letter-spacing: 15px;
+}
+
+.sentence3 {
+    font-size: 0.8rem;
+    color: #dbdddf;
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+    letter-spacing: 1px;
+}
+
 #box5 {
     position: relative;
     height: 380px;
@@ -402,6 +421,15 @@ body {
 
     width: 35%;
     margin-left: 10rem;
+}
+
+.todoDemo {
+    /* absolute 父元素要是 relative*/
+    position: relative;
+    width: 600px;
+    height: 300px;
+    top: -5rem;
+    left: 700px;
 }
 
 #box8 {

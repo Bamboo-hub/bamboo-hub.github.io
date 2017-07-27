@@ -12,6 +12,7 @@
     top: 430px;
     left: 230px;
     display: none;
+    cursor:pointer;
 }
 
 .cycleMusic {
@@ -19,6 +20,7 @@
     top: 436px;
     left: 247px;
     display: none;
+    cursor:pointer;
 }
 
 .cycleOne {
@@ -26,6 +28,7 @@
     top: 436px;
     left: 247px;
     display: none;
+    cursor:pointer;
 }
 
 .play {
@@ -33,6 +36,7 @@
     top: 435px;
     left: 423px;
     display: none;
+    cursor:pointer;
 }
 
 .pause {
@@ -40,24 +44,28 @@
     top: 430px;
     left: 416px;
     display: none;
+    cursor:pointer;
 }
 
 .last {
     position: absolute;
     top: 440px;
     left: 332px;
+    cursor:pointer;
 }
 
 .next {
     position: absolute;
     top: 440px;
     left: 500px;
+    cursor:pointer;
 }
 
 .volume {
     position: absolute;
     top: 428px;
     left: 585px;
+    cursor:pointer;
 }
 
 .time {

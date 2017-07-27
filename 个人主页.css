@@ -296,7 +296,7 @@ body {
 
 #box5 {
     position: relative;
-    height: 380px;
+    height: 375px;
     display: flex;
 }
 
@@ -304,7 +304,7 @@ body {
     flex: 0 0 50%;
     display: inline-block;
     width: 50%;
-    height: 376px;
+    height: 378px;
     background-color: #f7f8fb;
 }
 
@@ -312,7 +312,7 @@ body {
     flex: 0 0 50%;
     display: inline-block;
     width: 50%;
-    height: 376px;
+    height: 378px;
     background-color: white;
 }
 

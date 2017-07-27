@@ -15,13 +15,13 @@
 }
 .todoBackground {
     position: absolute;
-    right: 150px;
-    bottom: -100px;
+    /*right: 150px;
+    bottom: -100px;*/
 }
 .form-inline {
     position: relative;
-    bottom: 31px;
-    left: 815px;
+    top: 87px;
+    left: 200px;
     width: 200px;
 }
 .form-control {
@@ -31,36 +31,36 @@
 }
 #id-button-add {
     position: absolute;
-    bottom: 210px;
-    left: 770px;
+    bottom: 190px;
+    left: 155px;
 }
 .todo-title {
     position: absolute;
-    bottom: 257px;
-    left: 880px;
+    top: 44px;
+    left: 270px;
     color: #f0f0f3;
     font-size: 14px;
 }
 .todo-prev {
     position: absolute;
-    top: 205px;
-    left: 820px;
+    top: 320px;
+    left: 210px;
 }
 .todo-next {
     position: absolute;
-    top: 205px;
-    left: 985px;
+    top: 320px;
+    left: 365px;
 }
 .todo-list {
     position: absolute;
-    bottom: 260px;
-    left: 1015px;
+    top: 46px;
+    left: 402px;
 }
 .todo-cell {
     position: relative;
-    bottom: 20px;
-    left: 767px;
-    /*width: 237px;*/
+    top: 97px;
+    left: 155px;
+    width: 250px;
     height: 28px;
     /*overflow: hidden;*/
     margin: 2px 0;
@@ -81,7 +81,6 @@
 .todo-content {
     position: relative;
     height: 28px;
-    bottom: 5px;
     left: 16px;
     width: 237px;
     height: 28px;

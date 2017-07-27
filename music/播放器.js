@@ -246,6 +246,7 @@ bindAll(ps1, 'click', function(event){
 })
 
 var __main = function() {
+    a.autoplay = true
     play()
     pause()
     last()
@@ -254,5 +255,5 @@ var __main = function() {
     dafault()
     replace()
 }
-a.autoplay = true
+
 __main()
